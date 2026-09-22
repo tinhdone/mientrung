@@ -1,0 +1,135 @@
+<svg viewBox="0 0 640 480" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="heroTitle">
+  <title id="heroTitle">Minh họa phố lồng đèn Hội An soi bóng xuống sông Hoài về đêm, có thuyền thả đèn hoa đăng</title>
+  <defs>
+    <linearGradient id="skyGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#16233F"/>
+      <stop offset="45%" stop-color="#33456B"/>
+      <stop offset="100%" stop-color="#D9A03C"/>
+    </linearGradient>
+    <linearGradient id="riverGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#3A4E78"/>
+      <stop offset="100%" stop-color="#141F38"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFE9B8" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#E2992F" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="moonGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFF6DE" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#FFF6DE" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="640" height="480" fill="url(#skyGrad)"/>
+
+  <g fill="#F7F1E4">
+    <circle cx="40" cy="40" r="1.6"/>
+    <circle cx="90" cy="70" r="1.2"/>
+    <circle cx="150" cy="35" r="1.4"/>
+    <circle cx="250" cy="55" r="1.1"/>
+    <circle cx="340" cy="30" r="1.6"/>
+    <circle cx="70" cy="110" r="1"/>
+    <circle cx="600" cy="60" r="1.3"/>
+    <circle cx="560" cy="40" r="1.1"/>
+  </g>
+
+  <circle cx="520" cy="90" r="60" fill="url(#moonGlow)"/>
+  <circle cx="520" cy="90" r="34" fill="#F7F1E4" opacity="0.95"/>
+  <circle cx="530" cy="80" r="6" fill="#E9D9AE" opacity="0.6"/>
+  <circle cx="508" cy="100" r="4" fill="#E9D9AE" opacity="0.5"/>
+
+  <g stroke="#F7F1E4" stroke-width="2" fill="none" opacity="0.8">
+    <path d="M180 65 q8 -8 16 0 q8 -8 16 0"/>
+    <path d="M210 85 q6 -6 12 0 q6 -6 12 0"/>
+  </g>
+
+  <g opacity="0.55" fill="#101B33">
+    <polygon points="0,260 40,230 80,260 80,300 0,300"/>
+    <polygon points="80,270 130,235 180,270 180,300 80,300"/>
+    <polygon points="460,265 510,232 560,265 560,300 460,300"/>
+    <polygon points="560,275 610,240 640,265 640,300 560,300"/>
+  </g>
+
+  <g>
+    <rect x="60" y="230" width="120" height="90" fill="#3A2A2A"/>
+    <rect x="60" y="230" width="120" height="10" fill="#7A2E2E"/>
+    <rect x="460" y="225" width="120" height="95" fill="#3A2A2A"/>
+    <rect x="460" y="225" width="120" height="10" fill="#7A2E2E"/>
+    <rect x="90" y="255" width="26" height="40" fill="#F0B94A" opacity="0.9"/>
+    <rect x="130" y="255" width="26" height="40" fill="#E2992F" opacity="0.65"/>
+    <rect x="490" y="250" width="26" height="40" fill="#F0B94A" opacity="0.75"/>
+    <rect x="530" y="250" width="26" height="40" fill="#E2992F" opacity="0.55"/>
+    <line x1="70" y1="230" x2="70" y2="205" stroke="#5C1F1F" stroke-width="2"/>
+    <polygon points="70,205 95,213 70,221" fill="#C4471F"/>
+  </g>
+
+  <rect x="0" y="320" width="640" height="160" fill="url(#riverGrad)"/>
+  <g opacity="0.55">
+    <ellipse cx="150" cy="345" rx="14" ry="6" fill="#F0862F"/>
+    <ellipse cx="230" cy="360" rx="12" ry="5" fill="#F0B94A"/>
+    <ellipse cx="330" cy="335" rx="14" ry="6" fill="#F0862F"/>
+    <ellipse cx="420" cy="358" rx="12" ry="5" fill="#F0B94A"/>
+    <ellipse cx="500" cy="342" rx="13" ry="6" fill="#F0862F"/>
+  </g>
+  <g opacity="0.45" stroke="#F0B94A" stroke-width="2">
+    <line x1="20" y1="380" x2="140" y2="380"/>
+    <line x1="220" y1="410" x2="360" y2="410"/>
+    <line x1="420" y1="385" x2="540" y2="385"/>
+    <line x1="60" y1="440" x2="200" y2="440"/>
+    <line x1="380" y1="455" x2="560" y2="455"/>
+  </g>
+
+  <path d="M180 300 Q320 230 460 300" stroke="#101B33" stroke-width="10" fill="none"/>
+  <path d="M180 300 Q320 230 460 300" stroke="#E2992F" stroke-width="2.5" fill="none"/>
+  <g fill="#101B33">
+    <circle cx="220" cy="288" r="3"/>
+    <circle cx="270" cy="255" r="3"/>
+    <circle cx="320" cy="240" r="3"/>
+    <circle cx="370" cy="255" r="3"/>
+    <circle cx="420" cy="288" r="3"/>
+  </g>
+
+  <g>
+    <g id="lanternRow">
+      <circle cx="150" cy="140" r="46" fill="url(#glow)"/>
+      <ellipse cx="150" cy="140" rx="20" ry="26" fill="#C4471F"/>
+      <ellipse cx="150" cy="140" rx="20" ry="26" fill="none" stroke="#F0B94A" stroke-width="2"/>
+      <line x1="150" y1="132" x2="150" y2="148" stroke="#F0B94A" stroke-width="1" opacity="0.6"/>
+      <line x1="150" y1="60" x2="150" y2="114" stroke="#4A3B2A" stroke-width="2"/>
+
+      <circle cx="230" cy="190" r="40" fill="url(#glow)"/>
+      <ellipse cx="230" cy="190" rx="17" ry="22" fill="#F0862F"/>
+      <ellipse cx="230" cy="190" rx="17" ry="22" fill="none" stroke="#7A2E2E" stroke-width="2"/>
+      <line x1="230" y1="120" x2="230" y2="168" stroke="#4A3B2A" stroke-width="2"/>
+
+      <circle cx="330" cy="120" r="44" fill="url(#glow)"/>
+      <ellipse cx="330" cy="120" rx="19" ry="25" fill="#C4471F"/>
+      <ellipse cx="330" cy="120" rx="19" ry="25" fill="none" stroke="#F0B94A" stroke-width="2"/>
+      <line x1="330" y1="40" x2="330" y2="95" stroke="#4A3B2A" stroke-width="2"/>
+
+      <circle cx="420" cy="185" r="42" fill="url(#glow)"/>
+      <ellipse cx="420" cy="185" rx="18" ry="23" fill="#F0862F"/>
+      <ellipse cx="420" cy="185" rx="18" ry="23" fill="none" stroke="#7A2E2E" stroke-width="2"/>
+      <line x1="420" y1="115" x2="420" y2="162" stroke="#4A3B2A" stroke-width="2"/>
+
+      <circle cx="500" cy="145" r="40" fill="url(#glow)"/>
+      <ellipse cx="500" cy="145" rx="17" ry="22" fill="#C4471F"/>
+      <ellipse cx="500" cy="145" rx="17" ry="22" fill="none" stroke="#F0B94A" stroke-width="2"/>
+      <line x1="500" y1="75" x2="500" y2="123" stroke="#4A3B2A" stroke-width="2"/>
+    </g>
+  </g>
+
+  <g opacity="0.9">
+    <circle cx="90" cy="400" r="7" fill="#FFD98A"/>
+    <circle cx="115" cy="415" r="6" fill="#F0862F"/>
+    <circle cx="500" cy="405" r="7" fill="#FFD98A"/>
+    <circle cx="530" cy="420" r="6" fill="#F0862F"/>
+    <circle cx="560" cy="400" r="5" fill="#FFD98A"/>
+  </g>
+
+  <path d="M260 400 Q300 385 340 400 L330 412 L270 412 Z" fill="#101B33"/>
+  <circle cx="300" cy="380" r="16" fill="url(#glow)"/>
+  <ellipse cx="300" cy="380" rx="7" ry="9" fill="#F0862F"/>
+  <circle cx="300" cy="365" r="7" fill="#101B33"/>
+  <path d="M293 372 q7 -6 14 0" stroke="#101B33" stroke-width="3" fill="none"/>
+</svg>
